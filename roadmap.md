@@ -1,7 +1,8 @@
 # Roadmap
 
 ## Open
-- (none)
+- [ ] Replace old jewelry in the hero and collection with the four original uploaded photos; preserve logo and boutique background.
+- [ ] Verify photos, labels and layout on desktop and phone.
 
 ## Done
 - [x] Header logo — user's real logo file (IMG-20261104-WA5695.jpg) uploaded to CDN as `src/assets/roselle_rk_header_dp.jpg.asset.json` and used unchanged in the header at 48x48 / border-radius 8px. Old emblem crop deleted.
