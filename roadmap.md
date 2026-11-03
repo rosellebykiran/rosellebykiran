@@ -1,7 +1,7 @@
 # Roadmap
 
 ## Open
-- (none)
+- [ ] Restore original boutique hero and remove product overlays; verify real photos remain only in Collections.
 
 ## Done
 - [x] Replaced old jewelry with all four unchanged original uploaded photos in the hero and collection, with clean photo frames, soft shadows and "Original Roselle Piece" labels; removed fabricated names and prices. Preserved logo and gold architecture while removing the old jewelry from the boutique scene.
