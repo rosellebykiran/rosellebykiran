@@ -9,4 +9,4 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Product imagery uses unchanged uploaded photo asset pointers in both the hero showcase and collection; the boutique scene is a jewelry-free decorative background so no invented products appear.
+- Product imagery uses unchanged uploaded photo asset pointers only in Collections; the hero is a single original boutique scene without product overlays, keeping decorative imagery separate from inventory.
