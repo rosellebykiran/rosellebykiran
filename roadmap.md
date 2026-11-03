@@ -1,9 +1,10 @@
 # Roadmap
 
 ## Open
-- [ ] Restore original boutique hero and remove product overlays; verify real photos remain only in Collections.
+- (none)
 
 ## Done
+- [x] Restored the original boutique, RK monogram, black rose and blue heart ocean scene; removed all hero product overlays, kept header logo unchanged and verified four real photos appear only in Collections on phone and desktop.
 - [x] Replaced old jewelry with all four unchanged original uploaded photos in the hero and collection, with clean photo frames, soft shadows and "Original Roselle Piece" labels; removed fabricated names and prices. Preserved logo and gold architecture while removing the old jewelry from the boutique scene.
 - [x] Verified all eight photo placements load, four collection labels appear and no horizontal overflow occurs at desktop and phone widths; routing test passed and build is clean.
 - [x] Header logo — user's real logo file (IMG-20261104-WA5695.jpg) uploaded to CDN as `src/assets/roselle_rk_header_dp.jpg.asset.json` and used unchanged in the header at 48x48 / border-radius 8px. Old emblem crop deleted.
