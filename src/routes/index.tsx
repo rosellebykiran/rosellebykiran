@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
-import button from "@/assets/water-button.jpg";
+import button from "@/assets/water-button.png";
 import p1 from "@/assets/prod1.jpg";
 import p2 from "@/assets/prod2.jpg";
 import p3 from "@/assets/prod3.jpg";
@@ -66,13 +66,13 @@ function Index() {
         </div>
       </section>
 
-      <div className="relative z-10 flex justify-center pt-9 bg-cover" style={{ backgroundImage: `url(${drops})` }}>
-        <a href="#" aria-label="View all collection" className="block w-72 md:w-96">
-          <img src={button} alt="View all collection" className="w-full mix-blend-multiply" />
+      <div className="relative z-10 flex justify-center pt-5" style={{ backgroundImage: `url(${drops})`, backgroundSize: "100% auto", backgroundPosition: "top", backgroundRepeat: "no-repeat" }}>
+        <a href="#" aria-label="View all collection" className="block w-72 bg-transparent md:w-96" style={{ background: "transparent" }}>
+          <img src={button} alt="View all collection" className="w-full [filter:drop-shadow(0_12px_24px_rgba(15,35,65,0.25))]" style={{ background: "transparent" }} />
         </a>
       </div>
 
-      <div className="-mt-6 h-64 overflow-hidden bg-ocean">
+      <div className="-mt-[2px] h-64 overflow-hidden">
         <img src={ocean} alt="" className="h-full w-full object-cover" />
       </div>
     </div>
