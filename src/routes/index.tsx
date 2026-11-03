@@ -68,7 +68,7 @@ function Index() {
             </span>
           </div>
         </div>
-        <nav className="text-[10px] tracking-[0.15em] md:text-xs">
+        <nav className="whitespace-nowrap text-[8px] tracking-[0.02em] md:text-xs md:tracking-[0.15em]">
           HOME · COLLECTIONS · ABOUT · CONTACT
         </nav>
       </header>
