@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
-import logo from "@/assets/roselle_rk_header_dp.png";
+import logoAsset from "@/assets/roselle_rk_header_dp.jpg.asset.json";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
 import button from "@/assets/water-button.png";
@@ -46,9 +46,9 @@ function Index() {
       >
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <img
-            src={logo}
+            src={logoAsset.url}
             alt="ROSELLE by Kiran logo"
-            style={{ width: "48px", height: "48px", borderRadius: "8px", objectFit: "contain" }}
+            style={{ width: "48px", height: "48px", borderRadius: "8px", objectFit: "cover" }}
           />
           <div>
             <b
