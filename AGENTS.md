@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Product imagery uses unchanged uploaded photo asset pointers in both the hero showcase and collection; the boutique scene is a jewelry-free decorative background so no invented products appear.

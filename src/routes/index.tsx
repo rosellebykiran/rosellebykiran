@@ -1,21 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
-import hero from "@/assets/hero.jpg";
+import hero from "@/assets/boutique-empty.png";
 import logoAsset from "@/assets/roselle_rk_header_dp.jpg.asset.json";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
 import button from "@/assets/water-button.png";
-import p1 from "@/assets/prod1.jpg";
-import p2 from "@/assets/prod2.jpg";
-import p3 from "@/assets/prod3.jpg";
-import p4 from "@/assets/prod4.jpg";
+import p1 from "@/assets/roselle-blue-drop-earrings.jpg.asset.json";
+import p2 from "@/assets/roselle-cluster-earrings.jpg.asset.json";
+import p3 from "@/assets/roselle-gold-pendant.jpg.asset.json";
+import p4 from "@/assets/roselle-necklace.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "ROSELLE by Kiran — Ocean of the Heart Jewelry" },
-      { name: "description", content: "Heirloom-quality sapphire, pearl and gold jewelry by ROSELLE by Kiran." },
+      { name: "description", content: "Discover original ROSELLE by Kiran jewelry: blue drop earrings, cluster earrings, a gold-tone pendant and a crystal necklace." },
       { property: "og:title", content: "ROSELLE by Kiran — Ocean of the Heart" },
-      { property: "og:description", content: "Curated heirloom-quality pieces, crafted for timeless elegance." },
+      { property: "og:description", content: "Explore original jewelry from ROSELLE by Kiran, photographed in the signature rose collection." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -24,10 +24,10 @@ export const Route = createFileRoute("/")({
 });
 
 const products = [
-  { img: p1, name: "Sapphire Halo Drop Earrings", price: "$1,250" },
-  { img: p2, name: "Blue Diamond Solitaire Ring", price: "$3,800" },
-  { img: p3, name: "Pearl & Sapphire Strand Necklace", price: "$2,100" },
-  { img: p4, name: "Ornate Gold Cuff Bracelet", price: "$1,850" },
+  { img: p1.url, name: "Blue Drop Earrings" },
+  { img: p2.url, name: "Crystal Cluster Earrings" },
+  { img: p3.url, name: "Gold-Tone Crystal Pendant" },
+  { img: p4.url, name: "Crystal Strand Necklace" },
 ];
 
 function Index() {
@@ -74,7 +74,12 @@ function Index() {
       </header>
 
       <section className="bg-ocean">
-        <img src={hero} alt="Roselle gold palace on the ocean" className="block max-h-[88vh] w-full object-cover object-top" />
+        <img src={hero} alt="ROSELLE gold boutique on the ocean" className="block max-h-[70vh] w-full object-cover object-top" />
+        <div className="relative mx-auto -mt-12 grid max-w-5xl grid-cols-4 gap-2 px-4 pb-6 md:-mt-40 md:gap-5 md:px-8 md:pb-10">
+          {products.map((p) => (
+            <img key={p.name} src={p.img} alt={`Original Roselle Piece — ${p.name}`} className="aspect-square w-full rounded-lg bg-card object-contain shadow-card" />
+          ))}
+        </div>
       </section>
 
       <section className="bg-top bg-no-repeat px-3 pb-2 pt-9 [background-size:100%_100%]" style={{ backgroundImage: `url(${drops})` }}>
@@ -86,11 +91,11 @@ function Index() {
         </p>
         <div className="mx-auto mt-6 grid max-w-6xl grid-cols-2 gap-3.5 md:grid-cols-4">
           {products.map((p) => (
-            <div key={p.name} className="overflow-hidden rounded-2xl border border-border bg-card/95 text-center backdrop-blur-[2px] shadow-card">
-              <img src={p.img} alt={p.name} className="aspect-square w-full object-cover" />
+            <div key={p.name} className="overflow-hidden rounded-lg border border-border bg-card text-center shadow-card">
+              <img src={p.img} alt={p.name} className="aspect-square w-full bg-card object-contain" />
               <div className="px-2 pb-5 pt-3.5 text-[13px]">
                 <h4 className="font-medium">{p.name}</h4>
-                <p className="mt-1 opacity-90">— {p.price}</p>
+                <p className="mt-1 text-xs text-muted-foreground">Original Roselle Piece</p>
               </div>
             </div>
           ))}
