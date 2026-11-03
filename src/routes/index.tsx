@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import hero from "@/assets/boutique-empty.png";
+import hero from "@/assets/original-boutique.jpg.asset.json";
 import logoAsset from "@/assets/roselle_rk_header_dp.jpg.asset.json";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
@@ -74,12 +74,7 @@ function Index() {
       </header>
 
       <section className="bg-ocean">
-        <img src={hero} alt="ROSELLE gold boutique on the ocean" className="block max-h-[70vh] w-full object-cover object-top" />
-        <div className="relative mx-auto -mt-12 grid max-w-5xl grid-cols-4 gap-2 px-4 pb-6 md:-mt-40 md:gap-5 md:px-8 md:pb-10">
-          {products.map((p) => (
-            <img key={p.name} src={p.img} alt={`Original Roselle Piece — ${p.name}`} className="aspect-square w-full rounded-lg bg-card object-contain shadow-card" />
-          ))}
-        </div>
+        <img src={hero.url} alt="ROSELLE gold luxury boutique floating on a dark ocean at night, with RK diamond monogram, black rose and blue heart necklace" className="block max-h-[88vh] w-full object-cover object-top" />
       </section>
 
       <section className="bg-top bg-no-repeat px-3 pb-2 pt-9 [background-size:100%_100%]" style={{ backgroundImage: `url(${drops})` }}>
