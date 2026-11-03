@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
+import logo from "@/assets/roselle_rk_header_dp.png";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
 import button from "@/assets/water-button.png";
@@ -32,12 +33,42 @@ const products = [
 function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <header className="sticky top-0 z-50 flex h-16 items-center justify-between border-b border-border bg-secondary px-5 md:px-8">
-        <div className="leading-none">
-          <b className="block font-serif text-2xl font-medium tracking-[0.2em]">ROSELLE</b>
-          <span className="block text-center font-serif text-xs opacity-80">by Kiran</span>
+      <header
+        className="sticky top-0 z-50"
+        style={{
+          height: "66px",
+          background: "#fcfaf7",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          padding: "0 20px",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <img
+            src={logo}
+            alt="ROSELLE by Kiran logo"
+            style={{ width: "48px", height: "48px", borderRadius: "8px", objectFit: "contain" }}
+          />
+          <div>
+            <b
+              style={{
+                fontFamily: '"Cormorant Garamond", serif',
+                fontSize: "20px",
+                letterSpacing: "3px",
+                fontWeight: 500,
+                display: "block",
+                lineHeight: 1,
+              }}
+            >
+              ROSELLE
+            </b>
+            <span style={{ fontFamily: '"Cormorant Garamond", serif', fontSize: "11px" }}>
+              by Kiran
+            </span>
+          </div>
         </div>
-        <nav className="text-[9px] tracking-wider md:text-xs">
+        <nav className="whitespace-nowrap text-[8px] tracking-[0.02em] md:text-xs md:tracking-[0.15em]">
           HOME · COLLECTIONS · ABOUT · CONTACT
         </nav>
       </header>
