@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
+import logo from "@/assets/roselle_rk_header_dp.png";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
 import button from "@/assets/water-button.png";
