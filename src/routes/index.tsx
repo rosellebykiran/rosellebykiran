@@ -84,7 +84,7 @@ function Index() {
           Ocean of the Heart — Made from the Ocean's Last Tear
         </h1>
         <p className="mt-2 text-center text-xs opacity-80 md:text-sm">
-          Curated heirloom-quality pieces, crafted for timeless elegance
+          Curated heirloom-quality pieces for timeless elegance
         </p>
         <div className="mx-auto mt-6 grid max-w-6xl grid-cols-2 gap-3.5 md:grid-cols-4">
           {products.map((p) => (
