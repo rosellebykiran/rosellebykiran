@@ -1,9 +1,10 @@
 # Roadmap
 
 ## Open
-- (none)
+- [ ] Send the user a screenshot of Collections after the rename so she can confirm the caption line is gone.
 
 ## Done
+- [x] Products renamed to Ocean Whisper Earrings, Luna Pearl Drops, Celeste Crown Pendant, Ivory Charm Bracelet; "Original Roselle Piece" caption and prices removed; small gold "Inquire on WhatsApp" button (wa.me/923426399389) added under each name.
 - [x] Restored the original boutique, RK monogram, black rose and blue heart ocean scene; removed all hero product overlays, kept header logo unchanged and verified four real photos appear only in Collections on phone and desktop.
 - [x] Replaced old jewelry with all four unchanged original uploaded photos in the hero and collection, with clean photo frames, soft shadows and "Original Roselle Piece" labels; removed fabricated names and prices. Preserved logo and gold architecture while removing the old jewelry from the boutique scene.
 - [x] Verified all eight photo placements load, four collection labels appear and no horizontal overflow occurs at desktop and phone widths; routing test passed and build is clean.
