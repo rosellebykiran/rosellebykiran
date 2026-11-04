@@ -4,10 +4,10 @@ import logoAsset from "@/assets/roselle_rk_header_dp.jpg.asset.json";
 import drops from "@/assets/water-drops-bg.jpg";
 import ocean from "@/assets/ocean.jpg";
 import button from "@/assets/water-button.png";
-import p1 from "@/assets/roselle-blue-drop-earrings.jpg.asset.json";
-import p2 from "@/assets/roselle-cluster-earrings.jpg.asset.json";
-import p3 from "@/assets/roselle-gold-pendant.jpg.asset.json";
-import p4 from "@/assets/roselle-necklace.jpg.asset.json";
+import p1 from "@/assets/ocean-whisper-earrings.jpg.asset.json";
+import p2 from "@/assets/luna-pearl-drops.jpg.asset.json";
+import p3 from "@/assets/celeste-crown-pendant.jpg.asset.json";
+import p4 from "@/assets/ivory-charm-bracelet.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -87,7 +87,7 @@ function Index() {
         <div className="mx-auto mt-6 grid max-w-6xl grid-cols-2 gap-3.5 md:grid-cols-4">
           {products.map((p) => (
             <div key={p.name} className="overflow-hidden rounded-lg border border-border bg-card text-center shadow-card">
-              <img src={p.img} alt={p.name} className="aspect-square w-full bg-card object-contain" />
+              <img src={p.img} alt={p.name} className="aspect-square w-full object-cover" />
               <div className="px-2 pb-4 pt-3.5 text-[13px]">
                 <h4 className="font-medium">{p.name}</h4>
               </div>
