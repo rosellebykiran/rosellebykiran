@@ -4,6 +4,7 @@
 - (none)
 
 ## Done
+- [x] Removed all four "Inquire on WhatsApp" buttons from under the products; only the product name now shows under each card, images and layout unchanged.
 - [x] Sent Collections screenshots (phone + desktop) after the rename; confirmed the caption line, prices, "Original" and "Handcrafted" wording are all gone and the four WhatsApp buttons link to wa.me/923426399389.
 - [x] Products renamed to Ocean Whisper Earrings, Luna Pearl Drops, Celeste Crown Pendant, Ivory Charm Bracelet; "Original Roselle Piece" caption and prices removed; small gold "Inquire on WhatsApp" button (wa.me/923426399389) added under each name.
 - [x] Restored the original boutique, RK monogram, black rose and blue heart ocean scene; removed all hero product overlays, kept header logo unchanged and verified four real photos appear only in Collections on phone and desktop.

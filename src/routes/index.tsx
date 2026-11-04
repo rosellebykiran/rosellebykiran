@@ -23,8 +23,6 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const WHATSAPP_URL = "https://wa.me/923426399389";
-
 const products = [
   { img: p1.url, name: "Ocean Whisper Earrings" },
   { img: p2.url, name: "Luna Pearl Drops" },
@@ -92,20 +90,6 @@ function Index() {
               <img src={p.img} alt={p.name} className="aspect-square w-full bg-card object-contain" />
               <div className="px-2 pb-4 pt-3.5 text-[13px]">
                 <h4 className="font-medium">{p.name}</h4>
-                <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-2.5 inline-block rounded-full px-3 py-1 text-[9px] uppercase tracking-[0.12em] md:text-[10px]"
-                  style={{
-                    background: "linear-gradient(135deg, #e7c979, #c9a24a)",
-                    border: "1px solid rgba(201,162,74,0.45)",
-                    color: "#231a08",
-                    boxShadow: "0 4px 10px rgba(180,140,60,0.28)",
-                  }}
-                >
-                  Inquire on WhatsApp
-                </a>
               </div>
             </div>
           ))}
