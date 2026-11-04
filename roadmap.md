@@ -4,6 +4,7 @@
 - (none)
 
 ## Done
+- [x] Swapped all four product photos for the user's newest uploads in the given order (blue drop earrings → Ocean Whisper Earrings, cluster earrings → Luna Pearl Drops, gold pendant → Celeste Crown Pendant, bracelet → Ivory Charm Bracelet), each filling its card edge-to-edge; names, layout, card size, hero and button untouched.
 - [x] Removed all four "Inquire on WhatsApp" buttons from under the products; only the product name now shows under each card, images and layout unchanged.
 - [x] Sent Collections screenshots (phone + desktop) after the rename; confirmed the caption line, prices, "Original" and "Handcrafted" wording are all gone and the four WhatsApp buttons link to wa.me/923426399389.
 - [x] Products renamed to Ocean Whisper Earrings, Luna Pearl Drops, Celeste Crown Pendant, Ivory Charm Bracelet; "Original Roselle Piece" caption and prices removed; small gold "Inquire on WhatsApp" button (wa.me/923426399389) added under each name.
