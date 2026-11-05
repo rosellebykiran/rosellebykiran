@@ -29,6 +29,8 @@
   --font-serif: "Cormorant Garamond", serif;
   --font-sans: "Figtree", sans-serif;
   --color-ocean: var(--ocean);
+  --color-jewelry-gold: var(--jewelry-gold);
+  --color-jewelry-gold-foreground: var(--jewelry-gold-foreground);
   --shadow-card: 0 8px 28px oklch(0 0 0 / 0.09);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -67,6 +69,8 @@
 
 :root {
   --radius: 0.625rem;
+  --jewelry-gold: oklch(0.53 0.10 80);
+  --jewelry-gold-foreground: oklch(1 0 0);
   --ocean: oklch(0.22 0.05 255);
   --background: oklch(0.985 0.002 250);
   --foreground: oklch(0.129 0.042 264.695);

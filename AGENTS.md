@@ -9,4 +9,5 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Product imagery uses unchanged uploaded photo asset pointers only in Collections; the hero is a single original boutique scene without product overlays, keeping decorative imagery separate from inventory.
+- Product imagery uses unchanged uploaded photo asset pointers in Collections and product detail pages; the hero is a single original boutique scene without product overlays, keeping decorative imagery separate from inventory.
+- Product detail routes share a single catalogue module and use WhatsApp links for orders and inquiries; do not imply a checkout or payment was completed.

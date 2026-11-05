@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import hero from "@/assets/original-boutique.jpg.asset.json";
 import logoAsset from "@/assets/roselle_rk_header_dp.jpg.asset.json";
 import drops from "@/assets/water-drops-bg.jpg";
@@ -87,7 +87,7 @@ function Index() {
         <div className="mx-auto mt-6 grid max-w-6xl grid-cols-2 gap-3.5 md:grid-cols-4">
           {products.map((p) => (
             <div key={p.name} className="overflow-hidden rounded-lg border border-border bg-card text-center shadow-card">
-              <img src={p.img} alt={p.name} className="aspect-square w-full object-cover" />
+              <Link to="/products/$slug" params={{ slug: p.name.toLowerCase().replaceAll(' ', '-') }} className="block"><img src={p.img} alt={p.name} className="aspect-square w-full object-cover" /></Link>
               <div className="px-2 pb-4 pt-3.5 text-[13px]">
                 <h4 className="font-medium">{p.name}</h4>
               </div>

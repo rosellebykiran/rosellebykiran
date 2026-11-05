@@ -1,9 +1,11 @@
 # Roadmap
 
 ## Open
-- [ ] Create four product detail pages while preserving the Homepage design — waiting for the missing reference (including buttons, badges and footer) and the remainder of Ivory Charm Bracelet details.
+- [ ] Match the exact reference buttons, trust badges and footer — blocked by missing reference screenshot.
+- [ ] Complete Ivory Charm Bracelet description, material, size and any original price — blocked by unsupplied details.
 
 ## Done
+- [x] Created four linked product detail pages using Homepage photos and supplied prices/details; quantity-aware WhatsApp order/inquiry buttons and related products verified on desktop and phone. Homepage visual design unchanged; seven tests passed and build OK.
 - [x] Swapped all four product photos for the user's newest uploads in the given order (blue drop earrings → Ocean Whisper Earrings, cluster earrings → Luna Pearl Drops, gold pendant → Celeste Crown Pendant, bracelet → Ivory Charm Bracelet), each filling its card edge-to-edge; names, layout, card size, hero and button untouched.
 - [x] Removed all four "Inquire on WhatsApp" buttons from under the products; only the product name now shows under each card, images and layout unchanged.
 - [x] Sent Collections screenshots (phone + desktop) after the rename; confirmed the caption line, prices, "Original" and "Handcrafted" wording are all gone and the four WhatsApp buttons link to wa.me/923426399389.
