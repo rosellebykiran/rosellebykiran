@@ -1,7 +1,7 @@
 # Roadmap
 
 ## Open
-- (none)
+- [ ] Create four product detail pages while preserving the Homepage design — waiting for the missing reference (including buttons, badges and footer) and the remainder of Ivory Charm Bracelet details.
 
 ## Done
 - [x] Swapped all four product photos for the user's newest uploads in the given order (blue drop earrings → Ocean Whisper Earrings, cluster earrings → Luna Pearl Drops, gold pendant → Celeste Crown Pendant, bracelet → Ivory Charm Bracelet), each filling its card edge-to-edge; names, layout, card size, hero and button untouched.
