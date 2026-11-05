@@ -1,6 +1,7 @@
 # Roadmap
 
 ## Open
+- [ ] Create the newly requested separate Ocean Heart Sapphire Necklace reference page, retaining its exact image/text and adding the supplied offer, quantity, purchase/inquiry buttons and four recommended pieces; preserve Homepage entirely and direct its existing product links to this page — blocked by missing necklace reference image/text.
 - [ ] Match the exact reference buttons, trust badges and footer — blocked by missing reference screenshot.
 - [ ] Complete Ivory Charm Bracelet description, material, size and any original price — blocked by unsupplied details.
 
